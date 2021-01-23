@@ -2,8 +2,6 @@
 ### Contains
 - Sub-stockCheckAllSheets().vb
 - images folder: 
-    
-    _screenshots of the outputs on the three spreadsheets within a workbook that the .vb file ran on_
     - 2014subRun.png
     - 2015subRun.png
     - 2016subRun.png
@@ -13,6 +11,8 @@ The purpose of this analysis was to create a vba file that was capable of loopin
 
 - the yearly change, percent change, and total volume of all stocks, with conditional formatting on the yearly change column to show whether an increase or decrease occurred
 - the stock with the greatest % increase and greatest % decrease, and the value of that increase/decrease
+
+The Sub-stockCheckAllSheets().vb contains the code created to achieve this purpose, and the images folder contains screenshots of the spreadsheets with the outputs resulting from running the code
 ### Challenges
 
 One of the challenges in this project was data types. Large volumes of stocks moved throughout the year, requiring setting the vol_total column as 'LongLong'. Setting it as 'Long' caused the code to break. 
