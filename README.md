@@ -9,6 +9,7 @@
 ### Description
 
 The purpose of this analysis was to create a vba file that was capable of looping through similarly formatted excel spreadsheets and returning:
+
     - the yearly change, percent change, and total volume of all stocks, with conditional formatting on the yearly change column to show whether an increase or decrease occurred
     - the stock with the greatest % increase and greatest % decrease, and the value of that increase/decrease
 ### Challenges
