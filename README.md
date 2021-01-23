@@ -7,11 +7,10 @@
     - 2016subRun.png
 
 ### Description
-
 The purpose of this analysis was to create a vba file that was capable of looping through similarly formatted excel spreadsheets and returning:
 
-    - the yearly change, percent change, and total volume of all stocks, with conditional formatting on the yearly change column to show whether an increase or decrease occurred
-    - the stock with the greatest % increase and greatest % decrease, and the value of that increase/decrease
+- the yearly change, percent change, and total volume of all stocks, with conditional formatting on the yearly change column to show whether an increase or decrease occurred
+- the stock with the greatest % increase and greatest % decrease, and the value of that increase/decrease
 ### Challenges
 
 One of the challenges in this project was data types. Large volumes of stocks moved throughout the year, requiring setting the vol_total column as 'LongLong'. Setting it as 'Long' caused the code to break. 
